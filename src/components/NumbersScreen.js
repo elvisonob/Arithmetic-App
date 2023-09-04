@@ -2,7 +2,7 @@ import classes from './NumbersScreen.module.css';
 
 const NumbersScreen = () => {
   return (
-    <div className={classes.container}>
+    <div className={classes.container2}>
       <p className={classes.one}>1</p>
       <p className={classes.two}>2</p>
       <p className={classes.three}>3</p>
