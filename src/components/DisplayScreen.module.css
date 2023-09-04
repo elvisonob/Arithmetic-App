@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template: 'first-number second-number arithmetic-sign equal-sign result' 100px / 150px 150px 150px 150px 150px;
+    border: 2px solid black;
+    width: 60%;
+    padding: 30px;
+    margin: 50px;
+    grid-gap: 10px;
+}
+
+.first-number {
+    grid-area: 'first-number';
+    border: 1px solid black;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 25px 1fr 25px;
+}
+
+.second-number {
+    grid-area: 'second-number';
+    border: 1px solid black;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 25px 1fr 25px;
+}
+
+.arithmetic-sign {
+    grid-area: 'arithmetic-sign';
+    border: 1px solid black;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 25px 1fr 25px;
+}
+
+.equal-sign {
+    grid-area: 'equal-sign';
+    border: 1px solid black;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 25px 1fr 25px;
+}
+
+.result {
+    grid-area: 'result';
+    border: 1px solid black;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 25px 1fr 25px;
+}
