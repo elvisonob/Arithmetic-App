@@ -51,7 +51,7 @@ const evaluate = ({ currentOperand, previousOperand, operation }) => {
   const prev = parseFloat(previousOperand);
   const current = parseFloat(currentOperand);
 
-  return prev + curr;
+  return prev + current;
 };
 
 const App = () => {
